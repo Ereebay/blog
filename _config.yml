@@ -8,14 +8,14 @@ subtitle:
 description: This is Eree's blog
 keywords:
 author: Eree
-language: en
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://eree.dev
+url: https://ereebay.me
 root: /
-permalink: :title/
+permalink: posts/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: minos
+theme: next
 
 symbols_count_time:
   symbols: true
@@ -230,7 +230,7 @@ theme_config:
   # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
   # External url should start with http:// or https://
   menu:
-    中文: /cn.html || flag
+    English: en.html || flag
     home: / || home
     about: /about/ || user
     tags: /tags/ || tags
@@ -1161,8 +1161,7 @@ theme_config:
 
   translation:
     enable: true
-    language: Chinese  # language name
+    language: English  # language name
     icon: globe
-    info: 中文版本 
-    url: https://eree.dev/cn # Destination URL
-
+    info: 英文版本 
+    url: https://eree.dev # Destination URL
