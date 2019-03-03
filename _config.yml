@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://eree.dev
 root: /
-permalink: :title/
+permalink: posts/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: minos
+theme: next
 
 symbols_count_time:
   symbols: true
@@ -1164,5 +1164,5 @@ theme_config:
     language: Chinese  # language name
     icon: globe
     info: 中文版本 
-    url: https://eree.dev/cn # Destination URL
+    url: https://ereebay.me # Destination URL
 
