@@ -667,12 +667,12 @@ theme_config:
   # Demo: https://gitalk.github.io
   # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
   gitalk:
-    enable: false
-    github_id:  # Github repo owner
-    repo:  # Repository name to store issues.
-    client_id:  # Github Application Client ID
-    client_secret:  # Github Application Client Secret
-    admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+    enable: true
+    github_id: Ereebay  # Github repo owner
+    repo: blog # Repository name to store issues.
+    client_id: c457f5a08e42e14f9836 # Github Application Client ID
+    client_secret: d7fd90ba8ad804826a2ea037fa3e5a40acf512f7 # Github Application Client Secret
+    admin_user: Ereebay  # GitHub repo owner and collaborators, only these guys can initialize github issues
     distraction_free_mode: true # Facebook-like distraction free mode
 
   # Baidu Share
@@ -1143,10 +1143,10 @@ theme_config:
     # gitalk
     # See: https://github.com/gitalk/gitalk
     # Example:
-    # gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
-    # gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
-    gitalk_js:
-    gitalk_css:
+    gitalk_js: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js
+    gitalk_css: //cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css
+    # gitalk_js:
+    # gitalk_css:
 
     # js-md5
     # See: https://github.com/emn178/js-md5
