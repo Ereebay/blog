@@ -670,8 +670,8 @@ theme_config:
     enable: true
     github_id: Ereebay  # Github repo owner
     repo: blog # Repository name to store issues.
-    client_id: c457f5a08e42e14f9836 # Github Application Client ID
-    client_secret: d7fd90ba8ad804826a2ea037fa3e5a40acf512f7 # Github Application Client Secret
+    client_id: e8f2fc8efe4d0c2fb068 # Github Application Client ID
+    client_secret: e93849838f07bf7fea34ed1ae217fff4d70c07a8 # Github Application Client Secret
     admin_user: Ereebay  # GitHub repo owner and collaborators, only these guys can initialize github issues
     distraction_free_mode: true # Facebook-like distraction free mode
 
