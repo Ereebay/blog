@@ -3,10 +3,14 @@ title: kettle入门教程
 date: 2019-03-23 12:44:49
 tags: kettle
 categories: notes
+abbrlink: 5052
 ---
+
 # kettle 入门教程
 
 由于最后一个学期还有一个学分不够，就得再休一门课，看了看课表也就只能挑个OLAP了，又是一门完全陌生的课，然后网上关于kettle的教程又非常少，自己就搜罗了一些资料记录一下该课需要用的工具的笔记吧
+
+<!-- more -->
 
 ## kettle 介绍
 
