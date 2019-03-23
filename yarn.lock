@@ -1572,6 +1572,15 @@ hexo-renderer-ejs@^0.3.1:
     ejs "^2.3.4"
     object-assign "^4.0.1"
 
+hexo-renderer-marked@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-0.3.2.tgz#d6a37af9ff195e30f9ef6ede1a06ea1fe4322966"
+  dependencies:
+    hexo-util "^0.6.2"
+    marked "^0.3.9"
+    object-assign "^4.1.1"
+    strip-indent "^2.0.0"
+
 hexo-renderer-pandoc@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/hexo-renderer-pandoc/-/hexo-renderer-pandoc-0.2.0.tgz#d7132fa542f60f0a6a7ce4203bf923eb244c3ff4"
@@ -1607,7 +1616,7 @@ hexo-symbols-count-time@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/hexo-symbols-count-time/-/hexo-symbols-count-time-0.4.4.tgz#c5bad76d445d7e0a1ee8a46c7ad23349bc162c1d"
 
-hexo-util@^0.6.0, hexo-util@^0.6.3:
+hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-0.6.3.tgz#16a2ade457bef955af0dfd22a3fe6f0a49a9137c"
   dependencies:
@@ -1621,7 +1630,6 @@ hexo-util@^0.6.0, hexo-util@^0.6.3:
 hexo@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/hexo/-/hexo-3.8.0.tgz#4d05cce558ded5c14dfa1516bbae3971747f9747"
-  integrity sha512-qMk0TZ+ErKMD25R+HMHFvbyTAcKszmGZYtQHT2pzVnZgitkJCShZ7b2qDbedtWBBizhutNbKkhQ4D3Dqivaviw==
   dependencies:
     abbrev "^1.0.7"
     archy "^1.0.0"
@@ -2185,6 +2193,10 @@ markdown@~0.5.0:
   resolved "https://registry.yarnpkg.com/markdown/-/markdown-0.5.0.tgz#28205b565a8ae7592de207463d6637dc182722b2"
   dependencies:
     nopt "~2.1.1"
+
+marked@^0.3.9:
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
 math-random@^1.0.1:
   version "1.0.4"
