@@ -1,10 +1,9 @@
 ---
 title: One-shot Learning with Memory-Augmented Neural Networks 论文笔记
-mathjax: true
-categories: notes
-abbrlink: 55756
 date: 2019-03-22 08:47:11
 tags:
+mathjax: true
+categories: notes
 ---
 # One-shot Learning with Memory-Augmented Neural Networks 论文笔记
 

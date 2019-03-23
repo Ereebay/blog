@@ -1,6 +1,6 @@
 ---
 title: kettle入门教程
-kettle/date: 2019-03-23 12:44:49
+date: 2019-03-23 12:44:49
 tags: kettle
 categories: notes
 abbrlink: 5052
@@ -50,33 +50,33 @@ sh spoon.sh
 
 首先下图所示新建一个转换，并设置数据库的连接。
 
-![](/images/kettle/kettle-1.png)
+![img1](kettle入门教程/kettle-1.png)
 
-![](/images/kettle/kettle-2.png)
+![img2](kettle入门教程/kettle-2.png)
 
 设置完数据库连接之后，就可以设置输入源，这里我们采用数据库中的table作为输入源
 
-![](/images/kettle/kettle-3.png)
+![img3](kettle入门教程/kettle-3.png)
 
 设置好输入源可以点击preview先预览数据
 
-![](/images/kettle/kettle-4.png)
+![img4](kettle入门教程/kettle-4.png)
 
 设置完输入源 同理将输出源选择excel拖到工作界面，但是先别急着配置输出源，在view栏，添加一个hop，用来连接输入和输出源
 
-![](/images/kettle/kettle-5.png)
+![img5](kettle入门教程/kettle-5.png)
 
 这样在配置输出源的时候，在字段的tab就可以直接获取选择要导出的字段
 
-![](/images/kettle/kettle-6.png)
+![img6](kettle入门教程/kettle-6.png)
 
 最后点击开始就进行了转换
 
-![](/images/kettle/kettle-7.png)
+![img7](kettle入门教程/kettle-7.png)
 
 最后来看下导出的文件
 
-![](/images/kettle/kettle-8.png)
+![img8](kettle入门教程/kettle-8.png)
 
 ## Hello World
 
@@ -88,17 +88,17 @@ sh spoon.sh
 
 然后就是写个js脚本自动添加个hello
 
-![](/images/kettle/kettle-9.png)
+![img9](kettle入门教程/kettle-9.png)
 
 最后用hop将三个step链接，可以先执行preview看下结果
 
-![](/images/kettle/kettle-10.png)
+![img10](kettle入门教程/kettle-10.png)
 
-![](/images/kettle/kettle-11.png)
+![img11](kettle入门教程/kettle-11.png)
 
 最后可以看下结果
 
-![](/images/kettle/kettle-12.png)
+![img12](kettle入门教程/kettle-12.png)
 
 以上只是演示了数据转换中最基础的几个功能，其他更详细的功能都可以在Design tab中找到
 总的来说 kettle的操作逻辑就是 steps + hops，step是你的操作步骤，hops就是链接。
@@ -111,13 +111,13 @@ sh spoon.sh
 
 这里就根据前面hello world的例子，实现一个简单的job，检测当文件夹内不存在file的时候，就自动从数据库中导出数据并添加hello。
 
-![](/images/kettle/kettle-13.png)
+![img13](kettle入门教程/kettle-13.png)
 
 在右侧工具栏找到上图的控件拖进工作区，然后做hop连接，设置一下就行了。操作上和创建转换时类似的，只是将多个创建组合了起来
 
 如下图是配置转换的界面，输入转换的脚本地址
 
-![](/images/kettle/kettle-14.png)
+![img14](kettle入门教程/kettle-14.png)
 
 
 ## 厨房与煎锅
