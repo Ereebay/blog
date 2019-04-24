@@ -1,9 +1,10 @@
 ---
 title: MemoryGAN
-date: 2019-04-22 14:05:02
-tags:
 mathjax: true
 categories: notes
+abbrlink: 64315
+date: 2019-04-22 14:05:02
+tags:
 ---
 # Memory GAN 阅读笔记
 
