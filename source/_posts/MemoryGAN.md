@@ -8,7 +8,7 @@ tags:
 ---
 # Memory GAN 阅读笔记
 
-# 简介
+## 简介
 
 本文主要解决了训练非监督GAN中的两个问题，
 
@@ -20,7 +20,7 @@ tags:
 
 本文提出了一种端到端的生成对抗网络模型 记忆GAN，该模型涉及一种无监督的并且和现有生成对抗网络模型继集成的存储网络。
 
-？Von Mises-Fisher (vMF) mixture model. 
+Von Mises-Fisher (vMF) mixture model. 
 记忆模块能够有效地缓解不稳定的问题。首先，为缓解结构不连续性问题，内存可以学习训练样本的表示，帮助生成器更好理解类和集簇分布。因此，我们可以将离散簇的建模与连续潜在空间上的数据属性的嵌入分开，这可以减轻不连续性问题。
 
 其次 记忆网络能够通过学习记忆先前生成的样本数据簇来缓解遗忘问题，包括那种很稀有的样本。
@@ -124,3 +124,39 @@ $\alpha$对于性能至关重要，因为用于更新keys的旧序列不适合�
 
 最终，值得注意的是，这种内存更新机制和对抗训练算法是正交的，因为当鉴别器更新的时候，是内存的更新是独立执行的。此外，添加内存模块不会影响模型在测试的速度，因为memory只在训练的时候更新
 
+## 记忆条件生成网络
+
+记忆条件生成网络基于InfoGAN的生成器。但是区别在于他不仅以随机噪声为条件，同样对memory信息为条件。
+
+换言之，生成器不仅从噪声分布中随机采样枣红色呢过，同时还会从$P\left(c=i | v_{c}=1\right)=\frac{h_{i} v_{i}}{\sum_{j}^{N} h_{j} v_{j}}$采样memory index $i$。上面的公式表示的是存储真实数据的单元i出现的频率。最终的输入是$[K_i, z]$，$K_i$是memory index i的key vector
+
+与其他CGAN的区别是，MCGN不需要额外的标注或者是额外的encoder。相反，MCGN可以充分利用DMN通过非监督形式学习到的memory信息。DMN仅采用序列中每个样本和其标签来学习vMF混合memory
+
+
+整个memorygan的训练过程是
+
+for 训练迭代次数 do
+    从训练样本中采样一个minibatch的样本
+    从噪声分布和memory index 随机采样一个minibatch
+    更新鉴别器的loss
+    寻找minibatch中每个数据的Sy
+    对Sy中的每个key h gama 进行初始化
+    for EM迭代次数 do
+        估计每个s的$\gamma_s$
+        更新$h_s$
+        更新$K_s$
+    更新 vMF混合模型， $h_{s_{y}} \leftarrow \hat{h}_{s_{y}}^{T}, K_{s_{y}} \leftarrow \hat{K}_{s_{y}}^{T}$ for $s_{y} \in S_{y}$
+    从噪声分布和memory index 随机采样一个minibatch
+    更新生成器loss
+
+## objective function
+
+memoryGAN的目的是基于InfoGAN的目的，是为了最大化潜在变量和观察内容之间的共同信息。（这个可以查阅infoGAN）
+
+在$K_i$和$G(z, K_i)$之间增加一个共同信息loss，来保证采样的memory 信息和生成样本的结构化信息的连续性：
+
+$$
+I\left(K_{i} ; G\left(z, K_{i}\right)\right) \geq H\left(K_{i}\right)-\hat{I}-\log C(\kappa)
+$$
+
+其中，$\hat{I}$ 表示负的余弦相似度的期望 $\hat{I}=-E_{x \sim G\left(z, K_{i}\right)}\left[\kappa K_{i}^{T} \mu(x)\right]$
