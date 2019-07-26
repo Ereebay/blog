@@ -1,6 +1,6 @@
 ---
 title: kettle入门教程
-kettle/date: 2019-03-23 12:44:49
+date: 2019-03-23 12:44:49
 tags: kettle
 categories: notes
 abbrlink: 5052
