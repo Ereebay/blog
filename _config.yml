@@ -183,8 +183,8 @@ theme_config:
     # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
     # http://www.miitbeian.gov.cn
     beian:
-      enable: false
-      icp:
+      enable: true
+      icp: 浙ICP备15027223号
 
     # -------------------------------------------------------------
     # Any custom text can be defined here.
