@@ -162,3 +162,5 @@ I\left(K_{i} ; G\left(z, K_{i}\right)\right) \geq H\left(K_{i}\right)-\hat{I}-\l
 $$
 
 其中，$\hat{I}$ 表示负的余弦相似度的期望 $\hat{I}=-E_{x \sim G\left(z, K_{i}\right)}\left[\kappa K_{i}^{T} \mu(x)\right]$
+
+To be continued

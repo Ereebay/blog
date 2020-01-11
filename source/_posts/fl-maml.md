@@ -1,8 +1,9 @@
 ---
-title: FL_MAML
+title: Improving Federated Learning Personalization via MAML
 abbrlink: 6350
 date: 2019-12-02 15:07:30
 tags:
+categories: notes
 ---
 
 # Improving Federated Learning Personalization via MAML
@@ -68,3 +69,5 @@ $$
 一般来说，就通信轮次的数量而言，FedAvg训练数个local epochs后，可以在数轮通信内就能快速收敛。由于生产环境的复杂性，这种测量方式被用于衡量FL算法的收敛速度。本文发现，采用momentum SGD的方法作为server优化器已经对于personalized model进行了优化，然而initial model相对不稳定。以前的方法是减少本地的训练轮次或者学习率。
 
 本文提出采用Retile（K）的方法进行fintune，然后用Adam作为server优化器，来提升initialmodel的效果。同时可以稳定personalized model。
+
+To be continued

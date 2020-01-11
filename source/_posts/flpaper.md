@@ -1,8 +1,9 @@
 ---
-title: flpaper
+title: Federated Adversarial Domain Adaptation
 abbrlink: 62459
 date: 2019-11-24 14:04:02
 tags:
+categories: notes
 ---
 
 # Federated Adversarial Domain Adaptation
@@ -132,3 +133,6 @@ $$
 其中（p，q）采样自于联合分布，$q^{\prime}$采样与边缘分布，$T(p, q, \theta)$是由$\theta$决定的神经网络，来评估P和Q分布的互信息。
 
 域无关特征和域特定特征会输入到重建器中得到重组的特征，loss函数采用l2损失，来重建原来特征，为了保持表示的可组成型。L2约束和互信息的损失约束可以通过调整超参数来平衡。
+
+
+To be continued
