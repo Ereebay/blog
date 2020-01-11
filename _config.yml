@@ -823,7 +823,7 @@ theme_config:
   # api_key: https://console.developers.google.com
   # Create & manage a public Google calendar: https://support.google.com/calendar/answer/37083
   calendar:
-    enable: true
+    enable: false
     calendar_id: bsbmj12@gmail.com  # Your Google account E-Mail
     api_key: AIzaSyDyUri3IlIJTIfGwbpPLfhZPhku3LGA6ec
     orderBy: startTime
