@@ -1,8 +1,9 @@
 ---
 title: A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
+categories: notes
+abbrlink: 19897
 date: 2020-01-09 16:02:59
 tags:
-categories: notes
 ---
 
 # A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms
