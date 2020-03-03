@@ -213,7 +213,7 @@ theme_config:
 
   # If true, will add site-subtitle to index page, added in main hexo config.
   # subtitle: Subtitle
-  index_with_subtitle: true
+  index_with_subtitle: false
 
   # Automatically add external URL with BASE64 encrypt & decrypt.
   exturl: true
