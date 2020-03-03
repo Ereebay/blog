@@ -1,5 +1,5 @@
 ---
-title: Federated Adversarial Domain Adaptation
+title: Federated Adversarial Domain Adaptation 论文笔记【未完】
 abbrlink: 62459
 date: 2019-11-24 14:04:02
 tags:

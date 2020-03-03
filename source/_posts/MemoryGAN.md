@@ -1,5 +1,5 @@
 ---
-title: MemoryGAN
+title: MemoryGAN 论文笔记【未完】
 mathjax: true
 categories: notes
 abbrlink: 64315

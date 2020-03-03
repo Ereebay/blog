@@ -1,5 +1,5 @@
 ---
-title: One-shot Learning with Memory-Augmented Neural Networks 论文笔记
+title: One-shot Learning with Memory-Augmented Neural Networks 论文笔记 【未完】
 mathjax: true
 categories: notes
 abbrlink: 55756
