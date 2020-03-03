@@ -673,7 +673,7 @@ theme_config:
     ClientID: e8f2fc8efe4d0c2fb068 # Github Application Client ID
     ClientSecret: e93849838f07bf7fea34ed1ae217fff4d70c07a8 # Github Application Client Secret
     adminUser: Ereebay  # GitHub repo owner and collaborators, only these guys can initialize github issues
-    distraction_free_mode: true # Facebook-like distraction free mode
+    distractionFreeMode: true # Facebook-like distraction free mode
 
   # Baidu Share
   # Available values: button | slide
