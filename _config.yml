@@ -209,14 +209,14 @@ theme_config:
   canonical: true
 
   # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-  seo: false
+  seo: true
 
   # If true, will add site-subtitle to index page, added in main hexo config.
   # subtitle: Subtitle
-  index_with_subtitle: false
+  index_with_subtitle: true
 
   # Automatically add external URL with BASE64 encrypt & decrypt.
-  exturl: false
+  exturl: true
 
 
   # ---------------------------------------------------------------
@@ -236,7 +236,7 @@ theme_config:
     tags: /tags/ || tags
     categories: /categories/ || th
     archives: /archives/ || archive
-    schedule: /schedule/ || calendar
+    #schedule: /schedule/ || calendar
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
 
@@ -814,7 +814,7 @@ theme_config:
   #tencent_mta:
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-  baidu_push: false
+  baidu_push: true
 
   # Google Calendar
   # Share your recent schedule to others via calendar page.
