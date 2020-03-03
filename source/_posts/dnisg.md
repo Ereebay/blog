@@ -4,7 +4,8 @@ categories: notes
 mathjax: true
 abbrlink: 51469
 date: 2020-02-18 11:04:59
-tags: - synthetic gradients
+tags: 
+    - synthetic gradients
 ---
 
 # Decoupled Neural Interfaces using Synthetic Gradients
