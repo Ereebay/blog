@@ -13,7 +13,7 @@ categories: notes
 1. FL算法与MAML具有很多相似性，可以用元学习算法来对其进行解释
 2. 微调可以使得gloabl 模型具有更强的准确率，同时更容易做定制化处理
 3. 通过标准的中心化数据库训练出来的模型相比Fedavg训练的更难进行定制化处理
-
+<!-- more -->
 ## Introduction
 
 1. 指出了FL与MAML算法的联系，并用MAML算法对FL算法进行解释
