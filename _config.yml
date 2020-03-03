@@ -668,11 +668,11 @@ theme_config:
   # Reference: https://asdfv1929.github.io/2018/01/20/gitalk/, https://liujunzhou.top/2018/8/10/gitalk-error/
   gitalk:
     enable: true
-    owner: Ereebay  # Github repo owner
+    githubID: Ereebay  # Github repo owner
     repo: blog # Repository name to store issues.
-    clientID: e8f2fc8efe4d0c2fb068 # Github Application Client ID
-    clientSecret: e93849838f07bf7fea34ed1ae217fff4d70c07a8 # Github Application Client Secret
-    admin: Ereebay  # GitHub repo owner and collaborators, only these guys can initialize github issues
+    ClientID: e8f2fc8efe4d0c2fb068 # Github Application Client ID
+    ClientSecret: e93849838f07bf7fea34ed1ae217fff4d70c07a8 # Github Application Client Secret
+    adminUser: Ereebay  # GitHub repo owner and collaborators, only these guys can initialize github issues
     distraction_free_mode: true # Facebook-like distraction free mode
 
   # Baidu Share
