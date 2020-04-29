@@ -1,8 +1,9 @@
 ---
 title: 关于联邦学习的个性化能力综述
-date: 2020-04-29 12:37:55
 tags: notes
 categories: notes
+abbrlink: 54199
+date: 2020-04-29 12:37:55
 ---
 
 # 关于联邦学习个性化的综述
