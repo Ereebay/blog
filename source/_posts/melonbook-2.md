@@ -140,7 +140,7 @@ p是样例为正例的概率
 纵轴是[0,1]的归一化代价：
 
 $$
-\cos t_{\text {norm }}=\frac{ F N R \times p \times cost_{01}+FP R \times(1-p) \times \cos t_{10}}{p \times cost_{01} +(1-p) \times cost_{10}}
+cost_{\text {norm }}=\frac{ F N R \times p \times cost_{01}+FP R \times(1-p) \times \cos t_{10}}{p \times cost_{01} +(1-p) \times cost_{10}}
 $$
 
 FNR为假反例率，FPR为假正利率。 FNR=1-TPR
