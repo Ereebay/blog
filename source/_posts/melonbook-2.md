@@ -1,5 +1,5 @@
 ---
-title: 【西瓜书】2. 模型评估与选择
+title: 【西瓜书】阅读笔记 2. 模型评估与选择
 tags: 西瓜书
 mathjax: true
 categories: notes
@@ -19,7 +19,7 @@ date: 2020-06-24 16:06:16
 过拟合（overfitting）：泛化性能下降
 
 欠拟合（underfitting）：对训练样本效果不好
-
+<!-- more -->
 ## 评估方法
 
 通常使用测试集合（testing set）测试模型的性能，以测试误差（testing error）作为泛化误差近似
