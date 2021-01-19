@@ -184,7 +184,7 @@ theme_config:
     # http://www.miitbeian.gov.cn
     beian:
       enable: true
-      icp: 浙ICP备15027223号
+      icp: 浙ICP备15027223号-2
 
     # -------------------------------------------------------------
     # Any custom text can be defined here.
