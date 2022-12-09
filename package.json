@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "git": "^0.1.5",
     "hexo": "^3.8.0",
     "hexo-abbrlink": "^2.0.5",
