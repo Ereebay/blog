@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mermaid on eree&#39;s blog</title>
+    <link>http://localhost:1313/tags/mermaid/</link>
+    <description>Recent content in Mermaid on eree&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 eree&#39;s blog</copyright>
+    <lastBuildDate>Sun, 18 Jul 2021 10:52:59 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mermaid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>http://localhost:1313/posts/mermaid-diagrams/</link>
+      <pubDate>Sun, 18 Jul 2021 10:52:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mermaid-diagrams/</guid>
+      <description>&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;&#xA;&lt;p&gt;The following are some examples of the diagrams, charts and graphs that can be made using Mermaid. Click here to jump into the &lt;a href=&#34;http://mermaid-js.github.io/mermaid/&#34;&gt;full syntax&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;flowchart LR&#xD;&#xA;&#xD;&#xA;A[Hard] --&amp;gt;|Text| B(Round)&#xD;&#xA;B --&amp;gt; C{Decision}&#xD;&#xA;C --&amp;gt;|One| D[Result 1]&#xD;&#xA;C --&amp;gt;|Two| E[Result 2]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will be rendered as:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;flowchart LR&#xD;&#xA;&#xD;&#xA;A[Hard] --&amp;gt;|Text| B(Round)&#xD;&#xA;B --&amp;gt; C{Decision}&#xD;&#xA;C --&amp;gt;|One| D[Result 1]&#xD;&#xA;C --&amp;gt;|Two| E[Result 2]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;sequence-diagram&#34;&gt;Sequence diagram&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sequenceDiagram&#xD;&#xA;Alice-&amp;gt;&amp;gt;John: Hello John, how are you?&#xD;&#xA;loop Healthcheck&#xD;&#xA;    John-&amp;gt;&amp;gt;John: Fight against hypochondria&#xD;&#xA;end&#xD;&#xA;Note right of John: Rational thoughts!&#xD;&#xA;John--&amp;gt;&amp;gt;Alice: Great!&#xD;&#xA;John-&amp;gt;&amp;gt;Bob: How about you?&#xD;&#xA;Bob--&amp;gt;&amp;gt;John: Jolly good!&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will be rendered as:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

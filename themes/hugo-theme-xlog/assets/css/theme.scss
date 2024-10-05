@@ -1,0 +1,69 @@
+:root {
+  --mainshadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  --imgshadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04); 
+  --shadow-l1: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
+  --mainradius: 15px;
+  --imgradius: 10px;
+}
+
+.light {
+  --prime: #915b248f;
+  --grid: #b9c1c873;
+  --back: #fff;
+  --text: #333;
+
+  // highlight
+  --chroma-bg: #fff1dc;
+
+}
+
+.dark {
+  --prime: #d58b3f85;
+  --back: #181818;
+  --text: silver;
+  --grid: #555;
+
+  // highlight
+  --chroma-bg: #121204;
+
+  // comment
+  @media (prefers-color-scheme: dark) {
+    .artalk, .atk-layer-wrap {
+      --at-color-font: #af8253cc;
+      --at-color-bg: #181818;
+      --at-color-border: #804c2487;
+    }
+
+    .atk-main-editor>.atk-header input {
+      background: #71280412;
+      border: 2px solid #20201f26;
+    }
+  }
+}
+
+.sand {
+  --prime: #ff6b00ad;
+  --back: #e6dece;
+  --text: #434343;
+  --grid: #555;
+
+  --code-back: #dbd3c1be;
+  --code-text: #24292f;
+  --code-highlighted-line: #cec3ac;
+
+  --back-image: url('texture.png');
+}
+
+.rock {
+  --prime: #ff6b00ad;
+  --back: #ccc;
+  --text: #434343;
+  --grid: #555;
+
+  --code-back: #c1c1c1be;
+  --code-text: #24292f;
+  --code-highlighted-line: #afaeae;
+
+  --back-image: url('texture.png');
+}

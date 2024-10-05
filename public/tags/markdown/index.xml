@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on eree&#39;s blog</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on eree&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <copyright>© 2020-2024 eree&#39;s blog</copyright>
+    <lastBuildDate>Sun, 18 Jul 2021 10:52:59 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown 语法指北</title>
+      <link>http://localhost:1313/posts/markdown-syntax/</link>
+      <pubDate>Sun, 18 Jul 2021 10:52:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/markdown-syntax/</guid>
+      <description>&lt;p&gt;本文提供了一个可以在 Hugo 内容文件中使用的基本 Markdown 语法示例，还展示了基本 HTML 元素是否在 Hugo 主题中使用 CSS 进行修饰。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mermaid Diagrams</title>
+      <link>http://localhost:1313/posts/mermaid-diagrams/</link>
+      <pubDate>Sun, 18 Jul 2021 10:52:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mermaid-diagrams/</guid>
+      <description>&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;&#xA;&lt;p&gt;The following are some examples of the diagrams, charts and graphs that can be made using Mermaid. Click here to jump into the &lt;a href=&#34;http://mermaid-js.github.io/mermaid/&#34;&gt;full syntax&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;flowchart&#34;&gt;Flowchart&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;flowchart LR&#xD;&#xA;&#xD;&#xA;A[Hard] --&amp;gt;|Text| B(Round)&#xD;&#xA;B --&amp;gt; C{Decision}&#xD;&#xA;C --&amp;gt;|One| D[Result 1]&#xD;&#xA;C --&amp;gt;|Two| E[Result 2]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will be rendered as:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34; data-lang=&#34;mermaid&#34;&gt;flowchart LR&#xD;&#xA;&#xD;&#xA;A[Hard] --&amp;gt;|Text| B(Round)&#xD;&#xA;B --&amp;gt; C{Decision}&#xD;&#xA;C --&amp;gt;|One| D[Result 1]&#xD;&#xA;C --&amp;gt;|Two| E[Result 2]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;sequence-diagram&#34;&gt;Sequence diagram&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sequenceDiagram&#xD;&#xA;Alice-&amp;gt;&amp;gt;John: Hello John, how are you?&#xD;&#xA;loop Healthcheck&#xD;&#xA;    John-&amp;gt;&amp;gt;John: Fight against hypochondria&#xD;&#xA;end&#xD;&#xA;Note right of John: Rational thoughts!&#xD;&#xA;John--&amp;gt;&amp;gt;Alice: Great!&#xD;&#xA;John-&amp;gt;&amp;gt;Bob: How about you?&#xD;&#xA;Bob--&amp;gt;&amp;gt;John: Jolly good!&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will be rendered as:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Math Typesetting</title>
+      <link>http://localhost:1313/posts/math-typesetting/</link>
+      <pubDate>Sat, 18 Jul 2020 10:52:59 +0800</pubDate>
+      <guid>http://localhost:1313/posts/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries like &lt;a href=&#34;https://katex.org&#34;&gt;KaTeX&lt;/a&gt; the one that Minima uses. Here&amp;rsquo;s what you can do in the configuration file to enable it.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;math:&#xD;&#xA;  enable: false&#xD;&#xA;  provider: katex&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;&#xA;&lt;p&gt;The following are some examples of mathematical notations with KaTeX that are pretty much like LaTeX&amp;rsquo;s.&lt;/p&gt;&#xA;&lt;h3 id=&#34;block&#34;&gt;Block&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;\varphi = 1+\frac{1}{1+\frac{1}{1+\frac{1} {1+\cdots}}} &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;wiil be rendered as:&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;\varphi = 1+\frac{1}{1+\frac{1}{1+\frac{1} {1+\cdots}}}&#xA;$$&lt;/p&gt;&#xA;&lt;h3 id=&#34;inline&#34;&gt;Inline&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Pythagorean theorem can be written as $a^2+b^2=c^2$ where *a*, *b* and *c* are the length of legs of a triangle.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will be rendered as:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
