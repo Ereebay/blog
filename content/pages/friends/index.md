@@ -1,6 +1,5 @@
 ---
 title: links
-layout: "page"
 slug: /links
 ---
 

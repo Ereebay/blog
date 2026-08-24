@@ -1,4 +1,4 @@
 
-[submodule "themes/hugo-theme-xlog"]
-	path = themes/hugo-theme-xlog
-	url = https://github.com/lin-snow/hugo-theme-xlog.git
+[submodule "themes/hugo-theme-minima"]
+	path = themes/hugo-theme-minima
+	url = https://github.com/mivinci/hugo-theme-minima.git

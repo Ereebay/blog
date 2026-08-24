@@ -2,7 +2,7 @@
  "compilerOptions": {
   "paths": {
    "*": [
-    "../themes/hugo-theme-xlog/assets/*"
+    "../themes/hugo-theme-minima/assets/*"
    ]
   }
  }
