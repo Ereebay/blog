@@ -15,7 +15,7 @@ defaultContentLanguage: zh-cn
 
 languages:
   zh-cn:
-    label: cn
+    label: 简体中文
     weight: 1
     menu:
       main:
@@ -40,7 +40,7 @@ languages:
           希望你能在这里找到你想要的东西。也希望你能在这里留下你的足迹.
 
   en:
-    label: en
+    label: English
     weight: 2
     menu:
       main:
@@ -86,7 +86,7 @@ params:
   profileMode:
     enabled: true
     title: eree's blog
-    subtitle: "技术 · 生活 · 学习 🤔"
+    subtitle: "这是Eree的博客"
     imageUrl:
     imageTitle: eree
     buttons:
