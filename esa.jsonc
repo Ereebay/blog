@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "installCommand": "",
-  "buildCommand": "ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/') && mkdir -p bin && curl -sL \"https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-${ARCH}.tar.gz\" | tar -xz -C bin hugo && chmod +x bin/hugo && ./bin/hugo --minify",
+  "buildCommand": "ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/') && mkdir -p bin && curl -sL \"https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_0.165.0_linux-${ARCH}.tar.gz\" | tar -xz -C bin hugo && chmod +x bin/hugo && ./bin/hugo --minify",
   "assets": {
     "directory": "./public",
     "notFoundStrategy": "404Page"
