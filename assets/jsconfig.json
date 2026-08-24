@@ -1,9 +1,8 @@
 {
  "compilerOptions": {
-  "baseUrl": ".",
   "paths": {
    "*": [
-    "..\\themes\\hugo-theme-xlog\\assets\\*"
+    "../themes/hugo-theme-xlog/assets/*"
    ]
   }
  }

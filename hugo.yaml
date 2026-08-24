@@ -1,7 +1,7 @@
 baseURL: https://blog.ereebay.me/
-languageCode: zh-cn
+locale: zh-cn
 title: eree's blog
-copyright: © 2020-2024 eree's blog
+copyright: © 2020-2026 eree's blog
 
 services:
   googleAnalytics:
@@ -17,7 +17,7 @@ defaultContentLanguage: zh-cn
 # language.xxx setup
 languages:
   zh-cn:
-    languageName: cn # will be displayed in the navbar.
+    label: cn # will be displayed in the navbar.
     weight: 1
     params:
       greet: :) 你好
@@ -28,7 +28,7 @@ languages:
         希望你能在这里找到你想要的东西。也希望你能在这里留下你的足迹.  
   
   en:
-    languageName: en
+    label: en
     weight: 2
     params:
       greet: Hello 👋
@@ -200,6 +200,6 @@ markup:
   goldmark:
     renderHooks:
       image:
-        enableDefault: true
+        useEmbedded: fallback
       parser:
         wrapStandAloneImageWithinParagraph: false
