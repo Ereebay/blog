@@ -77,7 +77,7 @@ params:
   ShowFullTextinRSS: true
   ShowToc: true
   TocOpen: true
-  Comments: false
+  Comments: true
 
   label:
     icon:

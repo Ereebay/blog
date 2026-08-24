@@ -1,7 +1,7 @@
 ---
 title: 📷画廊
 slug: /gallery
-comment: false
+comments: false
 ---
 
 ![](1.jpg)
