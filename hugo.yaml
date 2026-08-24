@@ -68,14 +68,36 @@ params:
 
   defaultTheme: light
   ShowReadingTime: true
-  ShowWordCount: false
-  ShowShareButtons: false
+  ShowWordCount: true
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadcrumbs: true
   ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowFullTextinRSS: true
   ShowToc: true
-  TocOpen: false
+  TocOpen: true
   Comments: false
+
+  label:
+    icon: me.webp
+    iconHeight: 32
+
+  profileMode:
+    enabled: true
+    title: eree's blog
+    subtitle: "技术 · 生活 · 学习 🤔"
+    imageUrl: me.webp
+    imageHeight: 200
+    imageWidth: 200
+    imageTitle: eree
+    buttons:
+      - name: 标签
+        url: tags/
+      - name: 归档
+        url: archives/
+      - name: 搜索
+        url: search/
 
   socialIcons:
     - name: email
