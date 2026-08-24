@@ -9,7 +9,7 @@ copyright: © 2020-2026 eree's blog
 pagination:
   pagerSize: 5
 
-theme: hugo-theme-minima
+theme: hugo-PaperMod
 
 defaultContentLanguage: zh-cn
 
@@ -17,103 +17,87 @@ languages:
   zh-cn:
     label: cn
     weight: 1
+    menu:
+      main:
+        - identifier: tags
+          name: 标签
+          url: tags/
+          weight: 10
+        - identifier: archives
+          name: 归档
+          url: archives/
+          weight: 20
+        - identifier: search
+          name: 搜索
+          url: search/
+          weight: 30
     params:
-      greet: :) 你好
-      author:
-        status: ByteDancer.
-        description: |
-          这里是 [eree](https://blog.ereebay.me) 的 Log. [我](/pages/about)在这里记录了一些技术、生活、学习、娱乐的内容.
+      homeInfoParams:
+        Title: :) 你好
+        Content: |
+          这里是 **eree** 的 Log. [我](/pages/about)在这里记录了一些技术、生活、学习、娱乐的内容.
           这里有我的一些[朋友](/pages/links),还有我捕捉到的一些[瞬间](/pages/gallery),
           希望你能在这里找到你想要的东西。也希望你能在这里留下你的足迹.
 
   en:
     label: en
     weight: 2
+    menu:
+      main:
+        - identifier: tags
+          name: Tags
+          url: tags/
+          weight: 10
+        - identifier: archives
+          name: Archives
+          url: archives/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: search/
+          weight: 30
     params:
-      greet: Hello 👋
-      author:
-        status: ByteDancer 🎈
-        description: |
+      homeInfoParams:
+        Title: Hello 👋
+        Content: |
           This is `Eree`'s `Log`. [Me](/pages/about) here records some technology, life, study, and entertainment content.🤔
           I hope you can find what you want here. 👣
 
 params:
-  greet: Hello :)
-
-  subtitle: eree's blog
-
-  switch: ["🌚", "🌝"]
+  env: production
 
   defaultTheme: light
+  ShowReadingTime: true
+  ShowWordCount: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadcrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  Comments: false
 
-  displayDate: true
-
-  displayDescription: true
-
-  selectable: true
-
-  author:
-    name: eree
-    status: ByteDancer.
-    description: |
-      This is `Eree`'s `Log`. [Me](/pages/about) here records some technology, life, study, and entertainment content.🤔
-      I hope you can find what you want here. 👣
-
-  social:
-    - name: "email"
+  socialIcons:
+    - name: email
       url: "mailto:xk.jackson@hotmail.com"
-    - name: "github"
+    - name: github
       url: "https://github.com/ereebay"
-    - name: "rss"
+    - name: rss
       url: "index.xml"
-
-  math:
-    enable: true
-    provider: katex
-
-  diagram:
-    enable: true
-    provider: mermaid
-
-  search:
-    enable: true
-    provider: fuse
-    title: Search
-    placeholder: Enter keywords
-
-    fuse:
-      keys:
-        - title
-        - permalink
-        - summary
-        - content
-      distance: 100
-      location: 0
-      threshold: 0.6
-      ignoreLocation: false
-      isCaseSensitive: false
-      includeScore: false
-      includeMatches: false
-      minMatchCharLength: 1
-      shouldSort: true
-      findAllMatches: false
 
   icp:
     enable: true
     icpurl: https://beian.miit.gov.cn/
     icpinfo: 浙ICP备15027223号-2
 
-menu:
-  main:
-    - identifier: home
-      name: Home
-      weight: 1
-    - identifier: tags
-      name: Tags
-      weight: 2
-    - identifier: search
-      name: 🔍
-      weight: 3
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 100
+    threshold: 0.6
+    minMatchCharLength: 1
+    keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
   category: categories
@@ -127,6 +111,20 @@ outputs:
     - JSON
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - ['\[', '\]']
+            - ['$$', '$$']
+          inline:
+            - ['\(', '\)']
+            - ['$', '$']
   highlight:
-    lineNos: true
     noClasses: false
+    codeFences: true
+    lineNos: false
