@@ -32,6 +32,17 @@ languages:
           url: search/
           weight: 30
     params:
+      profileMode:
+        enabled: true
+        title: eree's blog
+        subtitle: "这是Eree的博客"
+        buttons:
+          - name: 标签
+            url: tags/
+          - name: 归档
+            url: archives/
+          - name: 搜索
+            url: search/
       homeInfoParams:
         Title: :) 你好
         Content: |
@@ -57,6 +68,17 @@ languages:
           url: search/
           weight: 30
     params:
+      profileMode:
+        enabled: true
+        title: eree's blog
+        subtitle: "Eree's personal blog"
+        buttons:
+          - name: Tags
+            url: tags/
+          - name: Archives
+            url: archives/
+          - name: Search
+            url: search/
       homeInfoParams:
         Title: Hello 👋
         Content: |
@@ -82,20 +104,6 @@ params:
   label:
     icon:
     iconHeight: 32
-
-  profileMode:
-    enabled: true
-    title: eree's blog
-    subtitle: "这是Eree的博客"
-    imageUrl:
-    imageTitle: eree
-    buttons:
-      - name: 标签
-        url: tags/
-      - name: 归档
-        url: archives/
-      - name: 搜索
-        url: search/
 
   socialIcons:
     - name: "email"
