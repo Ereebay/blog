@@ -80,16 +80,14 @@ params:
   Comments: false
 
   label:
-    icon: me.webp
+    icon:
     iconHeight: 32
 
   profileMode:
     enabled: true
     title: eree's blog
     subtitle: "技术 · 生活 · 学习 🤔"
-    imageUrl: me.webp
-    imageHeight: 200
-    imageWidth: 200
+    imageUrl:
     imageTitle: eree
     buttons:
       - name: 标签
